@@ -1,0 +1,155 @@
+extends index
+block content
+	div.register
+		div.reg_top
+			h3 用户注册
+			p 你好，我是大白，我可以帮忙吗？
+		div.reg_bottom
+			form(action="#")
+				div.reg_1.clearfix
+					div.left
+						p 邮箱
+						input(type="text",placeholder="Michael@gmail.com").reg_txt
+						i
+						span.reg_err 非法的邮箱名称！
+						span.reg_now 请输入常用的邮箱，它将成为你常用的登录账号；
+					div.right
+						p 用户名
+						input(type="text").reg_txt
+						i
+						span.reg_err 用户名太短，最少4个字符；
+						span.reg_now 4-16个字符，以中文或英文字母开头；
+				div.reg_2.clearfix
+					div.left
+						p 设置密码
+						input(type="password").reg_txt
+						i
+						span.reg_err 请填写密码；
+						span.reg_now 6-16个字符,以字母,数字符号组成;
+					div.right
+						p 确认密码
+						input(type="password").reg_txt
+						i
+						span.reg_err 两次密码不一致！请重新输入！！
+						span.reg_now 6-16个字符，以中文或英文字母开头；
+				div.reg_3.clearfix
+					div.left
+						p 名
+						input(type="text").reg_txt
+						i
+						span.reg_err 必须填！
+						span.reg_now 2-10个字符,以中文或英文字符开头;
+					div.right
+						p 姓
+						input(type="text").reg_txt
+						i
+						span.reg_err 必须填！
+						span.reg_now 2-10个字符,以中文或英文字符开头;
+				div.reg_4.clearfix
+					div.box
+						p 性别
+						i.checked
+						span 先生
+						i
+						span 女士
+				div.reg_5.clearfix
+					div.left
+						p 手机号码
+						input(type="text",placeholder="13425664356").reg_txt
+				div.reg_6.clearfix
+					p 所在城市
+					div.left
+						em.sheng 省
+							b
+						div.sheng_box
+							ul
+								li 北京市
+								li 天津市
+								li 河北省
+								li 北京市
+								li 天津市
+								li 河北省
+								li 北京市
+								li 天津市
+								li 河北省
+								li 北京市
+								li 天津市
+								li 河北省
+					div.left
+						em.shi 市
+							b
+						div.shi_box
+							ul
+								li 北京市
+								li 天津市
+								li 河北省
+				div.reg_7.clearfix
+					p 出生日期
+					div.left
+						em.year 年
+							b
+						div.year_box
+							ul
+								li 2015
+								li 2014
+								li 2013
+								li 2012
+								li 2011
+								li 2010
+								li 2009
+								li 2008
+								li 2007
+					div.left
+						em.month 月
+							b
+						div.month_box
+							ul
+								li 1
+								li 2
+								li 3
+								li 4
+								li 5
+								li 6
+								li 7
+								li 8
+								li 9
+								li 10
+								li 11
+								li 12
+					div.left
+						em.date 日
+							b
+						div.date_box
+							ul
+								li 1
+								li 2
+								li 3
+								li 4
+								li 5
+								li 6
+								li 7
+								li 8
+								li 9
+								li 10
+								li 11
+								li 12
+				div.reg_8.clearfix
+					div.left
+						p 验证码
+						input(type="text").reg_txt
+						i
+						a(href="#")
+							img(src="img/check.jpg", alt="")
+				div.reg_9
+					p 法律条款
+					div.iframe_box
+						iframe(src="http://www.dol.cn/rule", frameborder="no")
+				div.reg_10.clearfix
+					i.checked
+					span 我同意收到来自华特迪士尼集团及其成员公司的活动与优惠讯息。
+				div.reg_11
+					button 注册
+
+
+						
+

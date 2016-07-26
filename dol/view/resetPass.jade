@@ -1,0 +1,29 @@
+extends index
+block content
+	div.resetPass
+		div.reset_top
+			h3 找回密码
+			p 你好，我是大白，我可以帮忙吗？
+		div.reset_bottom
+			h3.title 找回密码
+			ul
+				li.li1
+					p.active.yuan 1
+					span 输入邮箱
+				li.li2
+					p.yuan 2
+					span 查收邮件
+				li.li3
+					p.yuan 3
+					span 重置密码
+				li.li4
+					p.yuan 4
+					span 完成
+			form(action="#")
+				p 请输入您注册时的邮箱
+				div.form_box.clearfix
+					input(type="text",placeholder="Michael@gmail.com")
+					i.hidden
+					span.hidden 非法的邮箱名称！
+				div.form_btn
+					button 确认，下一步

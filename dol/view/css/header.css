@@ -1,0 +1,90 @@
+.article {
+  padding-top: 0.9rem;
+}
+.header {
+  width: 10.0rem;
+  height: 0.9rem;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -5rem;
+  z-index: 1000;
+  background-color: #fff;
+}
+.header ul {
+  width: 100%;
+}
+.header ul li {
+  float: left;
+  width: 1.42857143rem;
+  text-align: center;
+  padding-top: 0.316667rem;
+}
+.header ul li a {
+  font-size: 0.166667rem;
+  line-height: 0.166667rem;
+}
+.header ul li a span {
+  display: inline-block;
+  width: 0.183333rem;
+  background: url('../img/xuebi.png');
+  background-size: 0.516667rem 4.025rem;
+}
+.header ul li a .nav1 {
+  height: 0.158333rem;
+  background-position: 0 0;
+}
+.header ul li a .nav2 {
+  height: 0.158333rem;
+  background-position: 0 -0.166667rem;
+}
+.header ul li a .nav3 {
+  height: 0.166667rem;
+  background-position: 0 -0.366667rem;
+}
+.header ul li a .nav4 {
+  height: 0.133333rem;
+  background-position: 0 -0.533333rem;
+}
+.header ul li a .nav5 {
+  height: 0.158333rem;
+  background-position: 0 -0.683333rem;
+}
+.header ul li a .nav6 {
+  height: 0.158333rem;
+  background-position: 0 -0.85rem;
+}
+.header ul li a .nav_1 {
+  height: 0.158333rem;
+  background-position: -0.183333rem 0;
+}
+.header ul li a .nav_2 {
+  height: 0.158333rem;
+  background-position: -0.183333rem -0.166667rem;
+}
+.header ul li a .nav_3 {
+  height: 0.166667rem;
+  background-position: -0.183333rem -0.366667rem;
+}
+.header ul li a .nav_4 {
+  height: 0.133333rem;
+  background-position: -0.183333rem -0.533333rem;
+}
+.header ul li a .nav_5 {
+  height: 0.158333rem;
+  background-position: -0.183333rem -0.683333rem;
+}
+.header ul li a .nav_6 {
+  height: 0.158333rem;
+  background-position: -0.183333rem -0.85rem;
+}
+.header ul li .header_font_active {
+  color: #ed020e;
+}
+.header ul .logo {
+  padding-top: 0.15rem;
+}
+.header ul .logo img {
+  width: 1.3rem;
+}
