@@ -1,0 +1,21 @@
+extends index
+block content
+	div.userinfo
+		div.userinfo_top
+			h3 用户登录
+			p 你好，我是大白，我可以帮忙吗？
+		div.userinfo_bottom
+			form(action="#")
+				div.user_email
+					p 用户邮箱
+					input(type="text",placeholder="Michael@gmail.com").txt
+				div.password
+					p 登录密码
+					input(type="password").txt
+				div.auto_load.clearfix
+					span.checked
+					p 下次自动登录
+					a(href="/resetPass") 忘记密码？
+				div.submit
+					button 登录
+					a(href="/reg") 还没有账户？立即创建

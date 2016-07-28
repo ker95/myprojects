@@ -1,0 +1,80 @@
+
+#container .left>.con{
+	padding: 10px 5px;
+	vertical-align: top;
+}
+#container .left>.con>a{
+	display: inline-block;
+	width: 350px;
+	height: 324px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	margin: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+}
+#container .left>.con>a>.typ{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #18A78C;
+	color: #FFFFFF;
+	padding: 2px 5px;
+	font-size: 10px;
+	line-height: 16px;
+	z-index: 1;
+}
+#container .left>.con>a>.typ:before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: -16px;
+	top: 0;
+	border-left: 16px solid #18A78C;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+#container .left>.con>a>.typ:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: -6px;
+	top: 8px;
+	background-color: #FFFFFF;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;
+}
+#container .left>.con>a>.title{
+	display: block;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 8px;
+	height: 56px;
+}
+#container .left>.con>a:hover .title{
+	color: #331be7;
+}
+#container .left>.con>a:hover .img{
+	opacity: 0.8;
+}
+#container .left>.con>a .glyphicon{
+	color: #18A78C;
+	margin-right: 5px;
+}
+#container .left>.con>a>.time,
+#container .left>.con>a>.num{
+	color: #666666;
+	line-height: 18px;
+}
+#container .left>.con>a>.time,
+#container .left>.con>a>.num{
+	display: inline-block;
+	margin: 10px;
+}
+#container .left>.con>a>.num{
+	float: right;
+}

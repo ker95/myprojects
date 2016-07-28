@@ -1,0 +1,76 @@
+#container .left .con{
+	padding: 10px;
+}
+#container .left .con>div{
+	padding: 10px 5px;
+	overflow: hidden;
+	border-bottom: 1px dashed #18A78C;
+}
+#container .left .con>div img{
+	border-radius: 10px;
+	margin-right: 10px;
+	float: left;
+}
+#container .left .con>div>div{
+	display: inline-block;
+	width: 410px;
+	height: 200px;
+	padding: 5px;
+}
+#container .left .con>div h4{
+	line-height: 24px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+#container .left .con>div:hover h4>a{
+	color: #331be7;
+}
+#container .left .con>div>div>p{
+	text-indent: 2em;
+	margin-bottom: 5px;
+	color: #666666;
+}
+#container .left .con>div>div>.zhaiyao{
+	height: 60px;
+}
+#container .left .con>div>div>p.key{
+	margin-bottom: 14px;
+}
+#container .left .con>div>div>p.key>a{
+	margin-right: 5px;
+	color: #666666;
+}
+#container .left .con>div>div>p.key>a:hover{
+	color: #331be7;
+}
+#container .left .con>div>div>.all{
+	float: left;
+	background-color: #CCCCCC;
+	line-height: 22px;
+	border-radius: 11px;
+	width: 70px;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#container .left .con>div>div>.all:hover{
+	background-color: #331be7;
+}
+#container .left .con>div>div>.num,
+#container .left .con>div>div>.typ{
+	float: right;
+	line-height: 22px;
+	margin-right: 10px;
+}
+#container .left .con>div>div .glyphicon{
+	margin-right: 7px;
+	color: #18A78C;
+}
+/*#container .left .con>nav{
+	overflow: hidden;
+	height: 70px;
+	width: 710px;
+}
+#container .left .con>nav>ul{
+	float: right;
+}*/
