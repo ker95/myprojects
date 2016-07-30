@@ -1,0 +1,285 @@
+/*初始化样式清除*/
+body{margin: 0;padding: 0;background-color: #fffcd3;}/*清除浏览器默认margin值 padding值*/
+ul ol {list-style: none;}/*清除ul ol 样式;*/
+.block{display: block;}/*支持行高*/
+a{text-decoration: none;}/*清除a标签的下划线*/
+.xbt{background-repeat: no-repeat;background: url("../img/xb.png");
+background-size: 7.546667rem 4.8rem;}
+h1,h2,h3,h4,h5,h6,p,{margin: 0;padding: 0;display: block;}
+img{border: none;}
+/*导航部分*/
+#box{
+	width: 10.0rem;
+	margin: 0 auto;
+}
+.logo{
+	width: 8.773333rem;
+	height: 1.173333rem;
+	margin: 0 auto;
+}
+.logo h2{
+	width: 3.466667rem;
+	height: 0.497778rem;
+	font-size: 0.497778rem;
+	font-weight: normal;
+	color: #e60012;
+	margin-top:0.4rem;
+	float: left;
+}
+.p1{
+	width: 0.462222rem;
+	height: 0.382222rem;
+	float: left;
+	margin-top: 0.453333rem;
+	background-position: 0 0;
+}
+.p2{
+	width: 5.217778rem
+	height: 0.311111rem;
+	margin-top: 0.471111rem;
+	font-size: 0.311111rem;
+	float: left;
+}
+.p3{
+	color: #e60012; 
+	width: 0.711111rem;
+	height: 0.311111rem;
+	margin-top: 0.488889rem;
+	float: left;
+	font-weight: bold;
+}
+/*已开宝箱部分*/
+.c_top{
+	width: 8.773333rem;overflow: hidden;
+	padding: 0 0.613333rem;
+}
+.c_top li{
+	width: 4.222222rem;
+	height: 1.715556rem;
+	background-color: #f53833;
+	border-radius: 0.2rem;
+	float: left;
+	margin: 0 0.266667rem 0.266667rem 0;
+}
+.c_top li:nth-child(2n){
+	margin: 0;
+}
+.c_top li:nth-child(4){
+	width: 4.133333rem;
+	height: 1.6rem;
+	background-color: #f9f9e3;
+	border: 4px dashed pink;
+	margin: 0;
+}
+.c_top li:nth-child(4) p{
+	font-size: 0.426667rem;
+	font-family: "华文仿宋";
+	line-height: 1.6rem;
+	text-align: center;
+	color: pink;
+}
+.li_span1{
+	width: 0.995556rem;
+	height: 1.2rem;
+	border-radius: 0.053333rem;
+	background-position: 0 -0.888889rem;
+	float: left;
+	margin: 0.266667rem 0 0 0.231111rem;
+}
+.li_a{
+	width: 2.56rem;
+	height: 1.715556rem;
+	float: right;
+}
+.li_a p:nth-child(1){
+	width: 2.56rem;
+	height: 0.382222rem;
+	margin-top: 0.275556rem;
+	font-size: 0.426667rem;
+	font-family: "华文仿宋";
+	color: #fff;
+}
+.li_a p:nth-child(2){
+	width: 2.56rem;
+	height: 0.622222rem;
+	margin-top: 0.204444rem;
+	font-size: 0.8rem;
+	font-family: "Arial Black";
+	line-height: 0.622222rem;
+	color: #fff;
+}
+.li_a p:nth-child(2) span{
+	width: 0.426667rem;
+	height: 0.346667rem;
+	margin-top: 0.284444rem;
+	font-size: 0.346667rem;
+	font-family: "Arial Black";
+	line-height: 0.346667rem;
+	float: left;
+}
+.li_span2{
+	width: 0.995556rem;
+	height: 0.995556rem;
+	border-radius: 0.053333rem;
+	background-position: 0 -2.222222rem;
+	float: left;
+	margin: 0.382222rem 0 0 0.346667rem;
+}
+.li_b{
+	width: 2.702222rem;
+	height: 1.715556rem;
+	float: right;
+}
+.li_b p:nth-child(1){
+	width: 2.702222rem;
+	height: 0.417778rem;
+	margin-top: 0.266667rem;
+	font-size: 0.426667rem;
+	font-family: "华文仿宋";
+	color: #fff;
+}
+.li_b p:nth-child(2){
+	width: 2.4rem;
+	height: 0.631111rem;
+	line-height: 0.631111rem;
+	margin-right: 0.284444rem;
+	margin-top: 0.177778rem;
+	font-size: 0.8rem;
+	font-family: "Arial Black";
+	color: #fff;
+}
+.li_b p:nth-child(2) span{
+	width: 0.702222rem;
+	height: 0.311111rem;
+	margin-top: 0.32rem;
+	font-size: 0.311111rem;
+	font-family: "Arial Black";
+	line-height: 0.311111rem;
+	float: right;
+}
+.li_span3{
+	width: 1.226667rem;
+	height: 1.226667rem;
+	border-radius: 0.053333rem;
+	background-position: 0 -3.555556rem;
+	float: left;
+	margin: 0.248889rem 0 0 0.302222rem;
+}
+.li_c{
+	width: 2.693333rem;
+	height: 1.715556rem;
+	float: right;
+}
+.li_c p{	
+	width: 1.351111rem;
+	height: 0.426667rem;
+	font-size: 0.426667rem;
+	font-family: "华文仿宋";
+	color: #fff;
+	float: right;
+	margin: 0.666667rem 0.711111rem 0 0;
+}
+/*未开宝箱部分*/
+#c_center{
+	width: 10.0rem;
+	height: 3.964444rem;
+	padding-top: 0.32rem;
+	background-color: #f52130;
+	position: relative;
+}
+.c_clogo h3{	
+	font-size: 0.497778rem;
+	color: #fff;
+	margin-left: 0.693333rem;
+}
+.c_clogo_span{
+	font-size: 0.72rem;
+	color: yellow;
+}
+.c_center_ol{
+	width: 10.0rem;
+	height: 3.422222rem;
+}
+.ol_li1{
+	width: 2.844444rem;
+	height: 2.844444rem;
+	margin-left: 0.373333rem;
+	float: left;
+}
+.ol_li1 img{
+	width: 100%;
+	height: 100%;
+}
+/*获得更多宝箱*/
+.bottom_logo{
+	width: 5.466667rem;
+	height: 1.12rem;
+	margin: 0.213333rem 0 0.275556rem 0.506667rem;
+	background-position: -1.333333rem 0;
+}
+.bottom_yellow{
+	width: 8.595556rem;
+	height: 1.253333rem;
+	margin: 0 0 0.213333rem 0.702222rem;
+	background-color: #f6c150;
+	border-radius: 0.125rem;
+}
+.bottom_cen{background-color: #f45929;} 
+.bottom_red{background-color: #f52130;} 
+.bottom_span1{
+	width: 1.706667rem;
+	height: 1.253333rem;
+	float: left;
+	background-position: -1.413333rem -1.44rem;
+}
+.b-s1{
+	width: 1.52rem;
+	background-position: -4.026667rem -1.44rem;
+	margin-left: 0.248889rem;
+}
+.b-s2{
+	background-position: -3.555556rem -3.555556rem;
+	width: 1.191111rem;
+	height: 1.004444rem;
+	float: right;
+	margin: 0.133333rem 0.24rem 0 0;
+}
+.b-p1{
+	width: 1.502222rem;
+	background-position: -5.92rem -1.44rem;
+	margin-left: 0.293333rem;
+}
+.b-p2{
+	background-position: -5.777778rem -3.555556rem;
+	width: 1.342222rem;
+	height: 1.004444rem;
+	float: right;
+	margin: 0.133333rem 0.24rem 0 0;
+}
+.bottom_yellow p{
+	width: 4.444444rem;
+	height: 1.253333rem;
+	color: #fff;
+	line-height: 1.253333rem;
+	font-size: 0.426667rem;
+	margin-left: 0.444444rem;
+	float: left;
+
+}
+.bottom_span2{
+	width: 1.342222rem;
+	height: 1.004444rem;
+	float: right;
+	margin: 0.133333rem 0.24rem 0 0;
+	background-position: -1.333333rem -3.555556rem;
+}
+
+
+
+
+
+
+
+
+
+

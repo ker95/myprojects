@@ -1,0 +1,51 @@
+div.nva
+	div.nav.navbar-default.container.logo
+		h2.nav-img.navbar-brand
+			img.h2-img(src="../img/botlist-logo.svg",alt="导航图标")
+		div.row.container
+			ul.list-unstyled.nva_left.nav.navbar-nav.hidden-xs
+				li
+					a(href="#") Articles
+				li
+					a(href="#") Create a Bot
+				li
+					a(href="#") Submit a Bot
+			ul.list-unstyled.nva_right.nav.navbar-nav.hidden-xs
+				li
+					a(href="#") Browse
+				li
+					a(href="#") Login
+				li
+					a(href="#") Register
+			button#logo_btn.navbar-toggle.collapsed(type="button",data-toggle="collapse",data-target="#app-navbar-collapse",aria-expanded="false")
+				span.sr-only Toggle Navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+		div#logo_none
+			div.logo_none.row.container.visible-xs
+				ul.list-unstyled.nva_left.nav.nav-stacked-nav
+					li
+						a(href="#") Articles
+					li
+						a(href="#") Create a Bot
+					li
+						a(href="#") Submit a Bot
+					li
+						a(href="#") Browse
+					li
+						a(href="#") Login
+					li
+						a(href="#") Register	
+div.cont_row
+	div.container
+		h2.col-xs-12.text-center.cont_bt An App Store For Bots
+		img.img-responsive.cont_img(src="../img/platform-list.svg",alt="")
+		form.col-lg-6.col-lg-offset-3.cont_form
+			input.form-control.row.form_inp(type="text",placeholder="These aren't the droids we're looking for.")
+			button.btn.btn-custom.row.form_btn(type="submit") SEARCH
+
+
+
+
+
